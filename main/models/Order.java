@@ -1,6 +1,4 @@
 //Order.java
-
-
 package models;
 import java.util.*;
 
@@ -27,6 +25,5 @@ public class Order {
             System.out.println(" - " + p.getName() + " ($" + p.getPrice() + ")");
         }
         System.out.println("Total: $" + totalAmount);
-    }
 }
 
