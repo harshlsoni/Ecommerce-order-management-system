@@ -1,10 +1,8 @@
-// Admin.java
-
 package models;
 
 public class Admin extends User {
     public Admin(String name, String email) {
-        super(name, email);
+        super(name, email, "Admin");
     }
 
     public void displayUserInfo() {
@@ -13,5 +11,5 @@ public class Admin extends User {
 
     public void manageProducts() {
         System.out.println(name + " is managing products.");
-    }
+    }
 }
